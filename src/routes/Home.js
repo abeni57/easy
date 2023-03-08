@@ -171,7 +171,7 @@ const Home = () => {
         </div>
       </section>
       <section className="mb-5">
-        <div className="container mam">
+        <div className="container mam6">
           <div className="row">
             <div className="col-md-12">
               <div className="text-center mam1 mt-3 mb-3">

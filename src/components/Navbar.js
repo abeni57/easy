@@ -24,37 +24,40 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link className="nav-link p-2" to="/">
+              <li className="nav-item nav-item1">
+                <Link className="nav-link nav-link1 p-2" to="/">
                   <i className="fas fa-home"></i>&nbsp;Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link p-2" to="/about">
+              <li className="nav-item nav-item1">
+                <Link className="nav-link nav-link1 p-2" to="/about">
                   About
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <Link className="nav-link p-2" to="/service">
+              <li className="nav-item nav-item1 dropdown">
+                <Link className="nav-link nav-link1 p-2" to="/service">
                   Service&nbsp;<i className="fas fa-caret-down"></i>
                 </Link>
-                <ul className="dropdown-menu p-2">
+                <ul className="dropdown-menu dropdown-menu1 p-2">
                   <li>
                     <Link
-                      className="dropdown-item nav-link"
+                      className="dropdown-item nav-link nav-link2"
                       to="./officebuilding"
                     >
                       Office Building
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item nav-link" to="./service/">
+                    <Link
+                      className="dropdown-item nav-link nav-link2"
+                      to="./service/"
+                    >
                       Public Shower
                     </Link>
                   </li>
                   <li>
                     <Link
-                      className="dropdown-item nav-link"
+                      className="dropdown-item nav-link nav-link2"
                       to="./service/industrialconstruction.html"
                     >
                       Indestrial Construction
@@ -62,7 +65,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      className="dropdown-item nav-link"
+                      className="dropdown-item nav-link nav-link2"
                       to="./service/public_infrastructure.html"
                     >
                       Public Infrastructure
@@ -70,31 +73,34 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      className="dropdown-item nav-link"
+                      className="dropdown-item nav-link nav-link2"
                       to="./service/housedevelopment.html"
                     >
                       House Development
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item nav-link" to="#">
+                    <Link className="dropdown-item nav-link nav-link2" to="#">
                       University
                     </Link>
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link p-2" to="/projects">
+              <li className="nav-item nav-item1">
+                <Link className="nav-link nav-link1 p-2" to="/projects">
                   Projects
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link p-2" to="/team">
+              <li className="nav-item nav-item1">
+                <Link className="nav-link nav-link1 p-2" to="/team">
                   Team
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link p-2 btn btn-primary" to="/contact">
+              <li className="nav-item nav-item1">
+                <Link
+                  className="nav-link nav-link1 p-2 btn btn-primary1"
+                  to="/contact"
+                >
                   Contact us
                 </Link>
               </li>

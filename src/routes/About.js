@@ -9,11 +9,11 @@ const About = () => {
     <div>
       <Navbar />
       <section className="mb-5">
-        <div className="container mam">
+        <div className="container mam1">
           <div className="row">
             <div className="col-md-12">
               <div className="text-center mt-3 mb-5">
-                <h1 data-aos="zoom-in" className="teamT">
+                <h1 data-aos="zoom-in" className="teamT1">
                   About us
                 </h1>
               </div>
@@ -73,7 +73,7 @@ const About = () => {
           <div className="row mt-3">
             <div className="col-md-12">
               <div className="text-center mt-3 mb-5">
-                <h1 data-aos="zoom-in" className="teamT">
+                <h1 data-aos="zoom-in" className="teamT1">
                   Company philosophy
                 </h1>
               </div>

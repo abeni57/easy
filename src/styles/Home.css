@@ -32,15 +32,16 @@
   margin-top: -50px !important;
 }
 .row div .TEXT h1 {
-  font-family: "Rubik", sans-serif;
-  color: #199ab4 !important;
-  font-size: 8vmin;
+  font-family: "cooper-black-std", serif;
+  color: #0091ad !important;
+  font-size: 6.5vmin;
   font-weight: 900 !important;
+  font-style: normal;
 }
 .row div .TEXT h2 {
-  font-family: "Rubik", sans-serif;
-  color: #199ab4 !important;
-  font-size: 7.5vmin;
+  font-family: "cooper-black-std", serif;
+  color: #0091ad !important;
+  font-size: 5.5vmin;
   font-weight: 700 !important;
 }
 .ma {
@@ -67,8 +68,8 @@
   overflow-y: hidden;
 }
 .mat h1 {
-  font-family: "Tilt Warp", cursive;
-  color: #199ab4;
+  font-family: "cooper-black-std", serif;
+  color: #0091ad;
   width: 100%;
   font-size: 45px;
   overflow-y: hidden;
@@ -83,6 +84,7 @@
 }
 .btb .btb1 {
   width: 40%;
+  background: #0091ad;
 }
 .btb .btb2 {
   width: 40%;
@@ -94,17 +96,17 @@
 .btb .btb2:hover {
   cursor: pointer;
   color: #fff !important;
-  background: #199ab4 !important;
+  background: #0091ad !important;
   transition: 0.3s ease;
 }
 .mat1 {
   margin-top: 70px !important;
 }
 .mat1 h1 {
-  font-family: "Tilt Warp", cursive;
-  color: #199ab4;
+  font-family: "cooper-black-std", serif;
+  color: #0091ad;
   width: 100%;
-  font-size: 45px;
+  font-size: 9vmin;
   overflow-y: hidden;
 }
 .card {
@@ -121,7 +123,7 @@
   font-family: "Roboto Serif", serif;
   font-size: 2rem !important;
   font-weight: bold;
-  color: #00d3fd;
+  color: #0091ad;
 }
 .lead {
   font-family: "Noto Sans", sans-serif;

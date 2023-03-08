@@ -22,7 +22,7 @@ const Contact = () => {
     <div>
       <Navbar />
       <section className="mb-5">
-        <div className="container mam">
+        <div className="container mam6">
           <div className="row">
             <div className="col-md-12">
               <div className="text-center mt-3 mb-3">

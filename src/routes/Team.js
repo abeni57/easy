@@ -13,9 +13,10 @@ const Team = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="text-center mt-3 mb-3">
-                <h1 data-aos="zoom-in" className="teamT">
-                  Our Team
-                </h1>
+                <span data-aos="zoom-in">
+                  <span className="teamT">Our </span>
+                  <span className="teamT1">Team</span>
+                </span>
               </div>
             </div>
           </div>
@@ -127,7 +128,7 @@ const Team = () => {
             <div
               data-aos="slide-right"
               data-aos-once="true"
-              className="col-12 col-md-6 col-xl-3 jc col-lg-3"
+              className="col-12 col-md-6 col-xl-3 col-lg-3"
             >
               <div className="img-area">
                 <img src={img} alt="" />

@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap");
-.mam {
+.mam1 {
   margin-top: 50px !important;
 }
-.mam .teamT {
-  font-family: "Tilt Warp", cursive;
-  color: #199ab4;
+.mam1 .teamT1 {
+  font-family: "cooper-black-std", serif;
+  color: #0091ad !important;
   width: 100%;
   font-size: 9vmin;
   overflow-y: hidden;
 }
-.mam p {
+.mam1 p {
   font-family: "Roboto Serif", serif;
   color: black;
 }
@@ -17,7 +17,7 @@
   overflow-y: hidden !important;
 }
 .lil i {
-  color: #199ab4 !important;
+  color: #0091ad !important;
 }
 .PiE1 {
   width: 75% !important;
