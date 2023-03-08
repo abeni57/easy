@@ -30,6 +30,11 @@
   overflow-y: hidden !important;
   border-radius: 10px !important;
 }
+.nav-item1 .active {
+  background: #e3ded2;
+  overflow-y: hidden !important;
+  border-radius: 10px !important;
+}
 section {
   overflow-x: hidden;
 }

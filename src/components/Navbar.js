@@ -1,6 +1,6 @@
 import "../styles/NavbarFooter.css";
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import img1 from "../img/logo.png";
 
 const Navbar = () => {
@@ -25,19 +25,19 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item nav-item1">
-                <Link className="nav-link nav-link1 p-2" to="/">
+                <NavLink className="nav-link nav-link1 p-2" to="/">
                   <i className="fas fa-home"></i>&nbsp;Home
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item nav-item1">
-                <Link className="nav-link nav-link1 p-2" to="/about">
+                <NavLink className="nav-link nav-link1 p-2" to="/about">
                   About
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item nav-item1 dropdown">
-                <Link className="nav-link nav-link1 p-2" to="/service">
+                <NavLink className="nav-link nav-link1 p-2" to="/service">
                   Service&nbsp;<i className="fas fa-caret-down"></i>
-                </Link>
+                </NavLink>
                 <ul className="dropdown-menu dropdown-menu1 p-2">
                   <li>
                     <Link
@@ -87,14 +87,14 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item nav-item1">
-                <Link className="nav-link nav-link1 p-2" to="/projects">
+                <NavLink className="nav-link nav-link1 p-2" to="/projects">
                   Projects
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item nav-item1">
-                <Link className="nav-link nav-link1 p-2" to="/team">
+                <NavLink className="nav-link nav-link1 p-2" to="/team">
                   Team
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item nav-item1">
                 <Link
