@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap");
-.mam {
-  margin-top: 50px !important;
+.mam3 {
+  margin-top: 10px !important;
 }
-.mam .teamT {
-  font-family: "Tilt Warp", cursive;
+.mam3 .teamT {
+  font-family: "cooper-black-std", serif !important;
   color: #0091ad;
   width: 100%;
   font-size: 9vmin;

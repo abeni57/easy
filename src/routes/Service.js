@@ -8,7 +8,7 @@ const Service = () => {
     <div>
       <Navbar />
       <section className="mt-5 mb-5 mat1">
-        <div className="container mam">
+        <div className="container mam3">
           <div className="row">
             <div className="col-md-12">
               <div className="text-center mt-3 mb-5">

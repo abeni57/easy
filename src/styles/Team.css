@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 .mam {
   margin-top: 50px !important;
@@ -11,7 +10,7 @@
   overflow-y: hidden;
 }
 .mam .teamT1 {
-  font-family: "Tilt Warp", cursive;
+  font-family: "cooper-black-std", serif;
   color: #0091ad;
   font-size: 9vmin;
   overflow-y: hidden;
