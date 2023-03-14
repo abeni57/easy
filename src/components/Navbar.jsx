@@ -42,7 +42,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       className="dropdown-item nav-link nav-link2"
-                      to="./officebuilding"
+                      to="/services/office_building"
                     >
                       Office Building
                     </Link>

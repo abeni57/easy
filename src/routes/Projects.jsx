@@ -2,12 +2,12 @@ import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../styles/Projects.css";
-
+import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div>
       <Navbar />
-      <section className="mt-5">
+      <section className="mt-3">
         <div className="container mam">
           <div className="row">
             <div className="col-md-12">
@@ -31,9 +31,12 @@ const Projects = () => {
                 <td>Ministry of Education</td>
                 <td>30 Million Birr</td>
                 <td>
-                  <button className="btn btb3 btn-primary text-light">
+                  <Link
+                    className="btn btb3 btn-primary text-light"
+                    to="/project/oda_bultum"
+                  >
                     Read More
-                  </button>
+                  </Link>
                 </td>
               </tr>
               <tr>

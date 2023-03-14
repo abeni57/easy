@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 import "../styles/Service.css";
 
 const Service = () => {
@@ -28,9 +29,12 @@ const Service = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
                   </p>
-                  <button class="btn btb3 btn-primary text-light">
+                  <Link
+                    class="btn btb3 btn-primary text-light"
+                    to="/services/office_building"
+                  >
                     Read More
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
