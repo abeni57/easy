@@ -20,8 +20,12 @@ const Service = () => {
             </div>
           </div>
 
-          <div data-aos="slide-right" data-aos-once="true" class="row gy-4">
-            <div class="col-12 col-md-6 col-sm-6 col-xl-4 col-lg-4">
+          <div class="row gy-4">
+            <div
+              data-aos="slide-right"
+              data-aos-once="true"
+              class="col-12 col-md-6 col-sm-6 col-xl-4 col-lg-4"
+            >
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
                   <i class="fas fa-hotel"></i>
@@ -39,7 +43,11 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 sm2 col-sm-6 col-xl-4 col-lg-4">
+            <div
+              data-aos="slide-down"
+              data-aos-once="true"
+              class="col-12 col-md-6 sm2 col-sm-6 col-xl-4 col-lg-4"
+            >
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
                   <i class="fas fa-shower"></i>
@@ -54,7 +62,11 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-sm-6 sm2 col-xl-4 col-lg-4">
+            <div
+              data-aos="slide-left"
+              data-aos-once="true"
+              class="col-12 col-md-6 col-sm-6 sm2 col-xl-4 col-lg-4"
+            >
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
                   <i class="fas fa-university"></i>
@@ -69,7 +81,11 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-sm-6 col-xl-4 sm1 col-lg-4">
+            <div
+              data-aos="slide-right"
+              data-aos-once="true"
+              class="col-12 col-md-6 col-sm-6 col-xl-4 sm1 col-lg-4"
+            >
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
                   <i class="fas fa-industry"></i>
@@ -84,7 +100,11 @@ const Service = () => {
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-sm-6 sm1 sm2 col-xl-4 col-lg-4">
+            <div
+              data-aos="slide-up"
+              data-aos-once="true"
+              class="col-12 col-md-6 col-sm-6 sm1 sm2 col-xl-4 col-lg-4"
+            >
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
                   <i class="fas fa-network-wired"></i>
@@ -100,7 +120,11 @@ const Service = () => {
               </div>
             </div>
 
-            <div class="col-12 pl-4 col-md-6 col-sm-6 col-xl-4 col-lg-4">
+            <div
+              data-aos="slide-right"
+              data-aos-once="true"
+              class="col-12 pl-4 col-md-6 col-sm-6 col-xl-4 col-lg-4"
+            >
               <div class="card w1 text-dark text-center pb-2">
                 <div class="card-body">
                   <i class="fas fa-building"></i>

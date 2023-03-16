@@ -5,6 +5,7 @@ import "../styles/NavbarFooter.css";
 import "../styles/Home.css";
 import img from "../img/Constr.jpg";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const {
@@ -56,12 +57,12 @@ const Home = () => {
                 Brokerage should be your first choice.
               </p>
               <span data-aos="slide-up" className="btb">
-                <a href="" className="btn btn-primary btb1">
+                <Link to="" className="btn btn-primary btb1">
                   Read More
-                </a>
-                <a href="" className="btn btn-primary btb2">
+                </Link>
+                <Link to="" className="btn btn-primary btb2">
                   Get Started
-                </a>
+                </Link>
               </span>
             </div>
           </div>
@@ -76,8 +77,12 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div data-aos="slide-right" data-aos-once="true" className="row gy-4">
-            <div className="col-12 col-md-6 col-sm-6 col-xl-4 col-lg-4">
+          <div className="row gy-4">
+            <div
+              data-aos="slide-right"
+              data-aos-once="true"
+              className="col-12 col-md-6 col-sm-6 col-xl-4 col-lg-4"
+            >
               <div className="card text-dark text-center pb-2">
                 <div className="card-body">
                   <i className="fas fa-hotel"></i>
@@ -86,13 +91,20 @@ const Home = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
                   </p>
-                  <button className="btn btb3 btn-primary text-light">
+                  <Link
+                    class="btn btb3 btn-primary text-light"
+                    to="/services/office_building"
+                  >
                     Read More
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 sm2 col-sm-6 col-xl-4 col-lg-4">
+            <div
+              data-aos="slide-down"
+              data-aos-once="true"
+              className="col-12 col-md-6 sm2 col-sm-6 col-xl-4 col-lg-4"
+            >
               <div className="card text-dark text-center pb-2">
                 <div className="card-body">
                   <i className="fas fa-shower"></i>
@@ -107,7 +119,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-sm-6 sm2 col-xl-4 col-lg-4">
+            <div
+              data-aos="slide-left"
+              data-aos-once="true"
+              className="col-12 col-md-6 col-sm-6 sm2 col-xl-4 col-lg-4"
+            >
               <div className="card text-dark text-center pb-2">
                 <div className="card-body">
                   <i className="fas fa-university"></i>
@@ -122,7 +138,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-sm-6 col-xl-4 sm1 col-lg-4">
+            <div
+              data-aos="slide-right"
+              data-aos-once="true"
+              className="col-12 col-md-6 col-sm-6 col-xl-4 sm1 col-lg-4"
+            >
               <div className="card text-dark text-center pb-2">
                 <div className="card-body">
                   <i className="fas fa-industry"></i>
@@ -137,7 +157,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-sm-6 sm1 sm2 col-xl-4 col-lg-4">
+            <div
+              data-aos="slide-up"
+              data-aos-once="true"
+              className="col-12 col-md-6 col-sm-6 sm1 sm2 col-xl-4 col-lg-4"
+            >
               <div className="card text-dark text-center pb-2">
                 <div className="card-body">
                   <i className="fas fa-network-wired"></i>
@@ -152,7 +176,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 pl-4 col-md-6 col-sm-6 col-xl-4 col-lg-4">
+            <div
+              data-aos="slide-left"
+              data-aos-once="true"
+              className="col-12 pl-4 col-md-6 col-sm-6 col-xl-4 col-lg-4"
+            >
               <div className="card w1 text-dark text-center pb-2">
                 <div className="card-body">
                   <i className="fas fa-building"></i>
