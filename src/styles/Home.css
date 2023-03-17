@@ -101,6 +101,7 @@
 }
 .mat1 {
   margin-top: 70px !important;
+  overflow-y: hidden !important;
 }
 .mat1 h1 {
   font-family: "cooper-black-std", serif;
