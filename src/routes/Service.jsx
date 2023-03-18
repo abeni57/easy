@@ -20,7 +20,7 @@ const Service = () => {
             </div>
           </div>
 
-          <div class="row gy-4">
+          <div class="row gy-4 serbices">
             <div
               data-aos="slide-right"
               data-aos-once="true"

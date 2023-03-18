@@ -148,6 +148,9 @@
   .imgg {
     width: 50%;
   }
+  .serbices {
+    overflow-y: hidden !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   .mat {
