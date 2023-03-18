@@ -118,6 +118,7 @@ ul {
 }
 .footer-col ul li a:hover {
   color: #ffffff;
+  font-weight: bolder;
   padding-left: 8px;
   text-decoration: underline;
 }
