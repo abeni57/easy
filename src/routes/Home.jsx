@@ -5,21 +5,36 @@ import "../styles/NavbarFooter.css";
 import "../styles/Home.css";
 import img from "../img/Constr.jpg";
 import { useForm } from "react-hook-form";
+import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
 
-const Home = () => {
+export default function Home() {
   const {
     register,
     handleSubmit,
     formState: { errors },
-    reset,
     trigger,
   } = useForm();
-  const onSubmit = (data) => {
-    console.log(data);
-    alert("Thank You for Message");
-    reset();
-  };
+  function onSubmit1(e) {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_p1l974w",
+        "template_08q0dzc",
+        e.target,
+        "Sxof60nC3cP0ZPodj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Thank You for Message");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
   return (
     <div>
       <Navbar />
@@ -246,7 +261,7 @@ const Home = () => {
               className="col-12 col-md-6 Aform col-sm-8 col-xl-8 col-lg-8"
             >
               <form
-                onSubmit={handleSubmit(onSubmit)}
+                onSubmit={handleSubmit(onSubmit1)}
                 className="bg-light p-4 m-auto"
               >
                 <div className="row">
@@ -256,7 +271,8 @@ const Home = () => {
                         className="form-control"
                         placeholder="Full Name"
                         type="text"
-                        {...register("name", {
+                        name="to_name"
+                        {...register("to_name", {
                           required: "Name is required",
                           minLength: {
                             value: 4,
@@ -268,12 +284,12 @@ const Home = () => {
                           },
                         })}
                         onKeyUp={() => {
-                          trigger("name");
+                          trigger("to_name");
                         }}
                       />
-                      {errors.name && (
+                      {errors.to_name && (
                         <small className="text-danger">
-                          {errors.name.message}
+                          {errors.to_name.message}
                         </small>
                       )}
                     </div>
@@ -284,7 +300,8 @@ const Home = () => {
                         className="form-control"
                         placeholder="Email"
                         type="text"
-                        {...register("email", {
+                        name="from_name"
+                        {...register("from_name", {
                           required: "Email is required",
                           pattern: {
                             value:
@@ -293,12 +310,12 @@ const Home = () => {
                           },
                         })}
                         onKeyUp={() => {
-                          trigger("email");
+                          trigger("from_name");
                         }}
                       />
-                      {errors.email && (
+                      {errors.from_name && (
                         <small className="text-danger">
-                          {errors.email.message}
+                          {errors.from_name.message}
                         </small>
                       )}
                     </div>
@@ -309,6 +326,7 @@ const Home = () => {
                         className="form-control"
                         placeholder="Message"
                         rows="3"
+                        name="message"
                         {...register("message", {
                           required: "message is required",
                           minLength: {
@@ -342,6 +360,4 @@ const Home = () => {
       <Footer />
     </div>
   );
-};
-
-export default Home;
+}

@@ -169,7 +169,7 @@ ul {
   text-decoration: underline;
 }
 .btb3 {
-  background: #0091ad;
+  background: #0091ad !important;
 }
 .btb3:hover {
   cursor: pointer;
