@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 export default function Home() {
   const {
     register,
-    handleSubmit,
     formState: { errors },
     trigger,
   } = useForm();
@@ -27,13 +26,16 @@ export default function Home() {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Thank You for Message");
+          alert(
+            "Thank You for Message. We will conduct you as soon as possible"
+          );
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
+          e.target.reset();
         }
       );
-    e.target.reset();
   }
   return (
     <div>
@@ -260,10 +262,7 @@ export default function Home() {
               data-aos-once="true"
               className="col-12 col-md-6 Aform col-sm-8 col-xl-8 col-lg-8"
             >
-              <form
-                onSubmit={handleSubmit(onSubmit1)}
-                className="bg-light p-4 m-auto"
-              >
+              <form onSubmit={onSubmit1} className="bg-light p-4 m-auto">
                 <div className="row">
                   <div className="col-md-12">
                     <div className="mb-3">
@@ -272,6 +271,7 @@ export default function Home() {
                         placeholder="Full Name"
                         type="text"
                         name="to_name"
+                        required
                         {...register("to_name", {
                           required: "Name is required",
                           minLength: {
@@ -301,6 +301,7 @@ export default function Home() {
                         placeholder="Email"
                         type="text"
                         name="from_name"
+                        required
                         {...register("from_name", {
                           required: "Email is required",
                           pattern: {
@@ -327,6 +328,7 @@ export default function Home() {
                         placeholder="Message"
                         rows="3"
                         name="message"
+                        required
                         {...register("message", {
                           required: "message is required",
                           minLength: {

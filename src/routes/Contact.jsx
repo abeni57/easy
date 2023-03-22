@@ -3,21 +3,38 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../styles/NavbarFooter.css";
 import "../styles/Contact.css";
+import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
-const Contact = () => {
+export default function Contact() {
   const {
     register,
-    handleSubmit,
     formState: { errors },
-    reset,
     trigger,
   } = useForm();
-  const onSubmit = (data) => {
-    console.log(data);
-    alert("Thank You for Message");
-    reset();
-  };
+  function onSubmit1(e) {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_p1l974w",
+        "template_08q0dzc",
+        e.target,
+        "Sxof60nC3cP0ZPodj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert(
+            "Thank You for Message. We will conduct you as soon as possible"
+          );
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          e.target.reset();
+        }
+      );
+  }
   return (
     <div>
       <Navbar />
@@ -68,10 +85,7 @@ const Contact = () => {
               data-aos-once="true"
               className="col-12 col-md-6 Aform col-sm-8 col-xl-8 col-lg-8"
             >
-              <form
-                onSubmit={handleSubmit(onSubmit)}
-                className="bg-light p-4 m-auto"
-              >
+              <form onSubmit={onSubmit1} className="bg-light p-4 m-auto">
                 <div className="row">
                   <div className="col-md-12">
                     <div className="mb-3">
@@ -79,7 +93,9 @@ const Contact = () => {
                         className="form-control"
                         placeholder="Full Name"
                         type="text"
-                        {...register("name", {
+                        name="to_name"
+                        required
+                        {...register("to_name", {
                           required: "Name is required",
                           minLength: {
                             value: 4,
@@ -91,12 +107,12 @@ const Contact = () => {
                           },
                         })}
                         onKeyUp={() => {
-                          trigger("name");
+                          trigger("to_name");
                         }}
                       />
-                      {errors.name && (
+                      {errors.to_name && (
                         <small className="text-danger">
-                          {errors.name.message}
+                          {errors.to_name.message}
                         </small>
                       )}
                     </div>
@@ -107,7 +123,9 @@ const Contact = () => {
                         className="form-control"
                         placeholder="Email"
                         type="text"
-                        {...register("email", {
+                        name="from_name"
+                        required
+                        {...register("from_name", {
                           required: "Email is required",
                           pattern: {
                             value:
@@ -116,12 +134,12 @@ const Contact = () => {
                           },
                         })}
                         onKeyUp={() => {
-                          trigger("email");
+                          trigger("from_name");
                         }}
                       />
-                      {errors.email && (
+                      {errors.from_name && (
                         <small className="text-danger">
-                          {errors.email.message}
+                          {errors.from_name.message}
                         </small>
                       )}
                     </div>
@@ -132,6 +150,8 @@ const Contact = () => {
                         className="form-control"
                         placeholder="Message"
                         rows="3"
+                        name="message"
+                        required
                         {...register("message", {
                           required: "message is required",
                           minLength: {
@@ -165,6 +185,4 @@ const Contact = () => {
       <Footer />
     </div>
   );
-};
-
-export default Contact;
+}
