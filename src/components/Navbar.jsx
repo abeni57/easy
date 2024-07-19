@@ -44,7 +44,7 @@ const Navbar = () => {
                       className="dropdown-item nav-link nav-link2"
                       to="/services/office_building"
                     >
-                      Office Building
+                      Laptops & Computers
                     </Link>
                   </li>
                   <li>
@@ -52,7 +52,7 @@ const Navbar = () => {
                       className="dropdown-item nav-link nav-link2"
                       to="./service/"
                     >
-                      Public Shower
+                      Mobile Phones & Tablets 
                     </Link>
                   </li>
                   <li>
@@ -60,7 +60,7 @@ const Navbar = () => {
                       className="dropdown-item nav-link nav-link2"
                       to="./service/industrialconstruction.html"
                     >
-                      Indestrial Construction
+                      Photo & Video Cameras 
                     </Link>
                   </li>
                   <li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                       className="dropdown-item nav-link nav-link2"
                       to="./service/public_infrastructure.html"
                     >
-                      Public Infrastructure
+                      Networking Products
                     </Link>
                   </li>
                   <li>
@@ -76,19 +76,43 @@ const Navbar = () => {
                       className="dropdown-item nav-link nav-link2"
                       to="./service/housedevelopment.html"
                     >
-                      House Development
+                      Computer Accessories 
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="dropdown-item nav-link nav-link2"
+                      to="./service/housedevelopment.html"
+                    >
+                     Printer & Scanners 
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="dropdown-item nav-link nav-link2"
+                      to="./service/housedevelopment.html"
+                    >
+                     Health & Beauty
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="dropdown-item nav-link nav-link2"
+                      to="./service/housedevelopment.html"
+                    >
+                      Kitchen Appliances 
                     </Link>
                   </li>
                   <li>
                     <Link className="dropdown-item nav-link nav-link2" to="#">
-                      University
+                      Building Materials 
                     </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item nav-item1">
                 <NavLink className="nav-link nav-link1 p-2" to="/projects">
-                  Projects
+                  Suppliers
                 </NavLink>
               </li>
               <li className="nav-item nav-item1">
@@ -97,12 +121,10 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item nav-item1">
-                <Link
-                  className="nav-link nav-link1 p-2 btn btn-primary1"
-                  to="/contact"
-                >
-                  Contact us
-                </Link>
+                <NavLink className="nav-link nav-link1 p-2" to="/contact">
+                  Contact Us
+                </NavLink>
+              
               </li>
             </ul>
           </div>

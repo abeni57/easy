@@ -15,7 +15,7 @@
   font-size: 1.1rem;
   font-family: "RocknRoll One", sans-serif;
   font-weight: bolder;
-  color: #0091ad !important;
+  color: #047537 !important;
   transition: all 0.3s ease;
 }
 .navbar-nav .nav-item1 .nav-link2 {
@@ -26,32 +26,32 @@
   transition: all 0.3s ease;
 }
 .navbar-nav .nav-item1 .nav-link1:hover {
-  background: #e3ded2;
+  background: #d1ead5;
   overflow-y: hidden !important;
   border-radius: 10px !important;
 }
-.nav-item1 .active {
-  background: #e3ded2;
+/* .nav-item1 .active {
+  background: #d1ead5;
   overflow-y: hidden !important;
   border-radius: 10px !important;
-}
+} */
 section {
   overflow-x: hidden;
 }
 .dropdown-menu1 {
-  background: #0091ad !important;
+  background: #0b7020 !important;
 }
 .dropdown:hover .dropdown-menu1 {
   display: block;
   transition: all 0.5s cubic-bezier(0.13, 0.62, 0.81, 0.91) 0s;
 }
 .nav-link2:hover {
-  background: #e3ded2;
+  background: #b1eab6;
   color: #fff !important;
   border-radius: 20px;
 }
 .btn-primary1 {
-  background: #e3ded2 !important;
+  background: #e5e2d9 !important;
 }
 
 .navbar-nav .nav-item1 .btn-primary1:hover {
@@ -61,7 +61,7 @@ section {
 .footer {
   line-height: 1.5 !important;
   font-family: "Poppins", sans-serif !important;
-  background-color: #0091ad;
+  background-color: #047537;
   padding-top: 70px;
 }
 .container1 {
@@ -135,12 +135,12 @@ ul {
   transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover {
-  color: #0091ad;
+  color: #047537;
   background-color: #e3ded2;
 }
 .mam6 h1 {
   font-family: "Tilt Warp", cursive;
-  color: #199ab4;
+  color: #047537;
   width: 100%;
   font-size: 45px;
   overflow-y: hidden;
@@ -150,7 +150,7 @@ ul {
   font-size: 30px;
   font-weight: bolder;
   overflow-y: hidden;
-  color: #0091ad;
+  color: #047537;
 }
 .lead1 {
   margin-left: 60px !important;
@@ -169,7 +169,7 @@ ul {
   text-decoration: underline;
 }
 .btb3 {
-  background: #0091ad !important;
+  background: #047537 !important;
 }
 .btb3:hover {
   cursor: pointer;

@@ -3,6 +3,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  function getCurrentYear() {
+    return new Date().getFullYear();
+  }
+  const currentYear = getCurrentYear();
   return (
     <div>
       <footer className="footer">
@@ -21,7 +25,7 @@ const Footer = () => {
                   <Link to="/service">our services</Link>
                 </li>
                 <li>
-                  <Link to="/projects">Projects</Link>
+                  <Link to="/projects">suppliers</Link>
                 </li>
                 <li>
                   <Link to="/team">team</Link>
@@ -50,7 +54,7 @@ const Footer = () => {
                   <Link to="#">payment options</Link>
                 </li>
                 <li>
-                  <Link to="#">payment optionsII</Link>
+                  <Link to="#">second payment options</Link>
                 </li>
               </ul>
             </div>
@@ -58,26 +62,26 @@ const Footer = () => {
               <h4>Telephone</h4>
               <ul>
                 <li>
-                  <a href="tel:+251911209528">Mob +251-911209528</a>
+                  <a href="tel:+251911209528">Mob +251-931138338</a>
                 </li>
                 <li>
-                  <a href="tel:+251911930188">Mob +251-911930188</a>
+                  <a href="tel:+251911930188">Mob +251-703239707</a>
                 </li>
                 <li>
-                  <a href="tel:+251114160839">Tel +251-114160839</a>
+                  <a href="tel:+251114160839">Tel 011-114160839</a>
                 </li>
               </ul>
             </div>
             <div className="footer-col coll1">
-              <h4>Follow us</h4>
+              <h4>Follow Us</h4>
               <div className="social-links">
-                <a href="https://www.facebook.com/ezramtd6" target="_blank">
+                <a href="https://www.facebook.com/betelhem.aytenew?mibextid=rS40aB7S9Ucbxw6v" target="_blank">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/ezramtd6" target="_blank">
+                <a href="https://www.linkedin.com/in/wongel-aytenew-5135301b8" target="_blank">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-                <a href="https://t.me/ezramtd6" target="_blank">
+                <a href="https://t.me/Eve3138" target="_blank">
                   <i className="fab fa-telegram"></i>
                 </a>
               </div>
@@ -85,7 +89,7 @@ const Footer = () => {
           </div>
           <div className="row mt-3">
             <div className="col-12 col-sm-12 col-lg-12 col-md-12">
-              <p className="p">Copyright © 2023 BTBC.All rights reserved</p>
+              <p className="p">Copyright © {currentYear} Easy Consultancy. All rights reserved</p>
             </div>
           </div>
         </div>

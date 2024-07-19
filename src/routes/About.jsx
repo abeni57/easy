@@ -14,7 +14,7 @@ const About = () => {
             <div className="col-md-12">
               <div className="text-center mt-3 mb-5">
                 <h1 data-aos="zoom-in" className="teamT1">
-                  About us
+                  About Us
                 </h1>
               </div>
             </div>
@@ -22,110 +22,46 @@ const About = () => {
           <div className="row mt-1">
             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
               <p data-aos="slide-right" data-aos-once="true">
-                Bogale Tesema Building Contractor (BTBC) is a private owned and
-                operates company; registered under the commercial low of
-                Ethiopia and according to the professional requirements of the
-                Ministry of Woks and Urban Development and working on the
-                construction field for more than 30 years Initially registered
-                and licensed as building contractor, the firm is currently
-                upgraded itself and licensed as BC grade 4 level and on a
-                process of upgrading to BC grade 3 construction company.
+              Easy Consultancy is a privately owned and operated company that adheres to 
+              Ethiopian commercial law as well as the professional requirements of the Ministry of Labor and Skills. 
+              They work in technology and were originally licensed as information service providers.
+              Easy Consultancy is a consultancy and information service provider. 
+              The aim is to enhance people's lives by offering information via a 15-hour daily call center and a 24-hour platform service.
               </p>
-              <p data-aos="slide-left" data-aos-once="true" className="pt-3">
-                Since its inception as a construction firm in 1990 (European
-                Colander), it has successfully completed several major
-                contracts, such as works including building, bridges, dams, town
-                water supply systems, spring capping, asphalt and earth road
-                construction and major maintenance works for both government and
-                private establishments.
-              </p>
-              <p data-aos="slide-right" data-aos-once="true" className="pt-3">
-                The company is Managed by Mr. Bogale Tesema , a civil engineer
-                with extensive knowledge and experience in engineering
-                construction and project management skills in different
-                projects, the firm is:
-              </p>
-              <ul className="pt-2 lil">
-                <li>
-                  <p data-aos="flip-up" data-aos-once="true">
-                    <i className="fas fa-check-circle"></i>&nbsp;&nbsp;&nbsp;
-                    Equipped with sound management and technical team supported
-                    by various types and sizes of construction equipment and
-                    facility.
-                  </p>
-                </li>
-                <li>
-                  <p data-aos="flip-up" data-aos-once="true">
-                    <i className="fas fa-check-circle"></i>&nbsp;&nbsp;&nbsp;
-                    Engaged in the management and construction of buildings for
-                    commercial, residential and government enterprises.
-                  </p>
-                </li>
-                <li>
-                  <p data-aos="flip-up" data-aos-once="true">
-                    <i className="fas fa-check-circle"></i>&nbsp;&nbsp;&nbsp;
-                    Obtain contracts through competitive tender and Invitations.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="row mt-3">
-            <div className="col-md-12">
-              <div className="text-center mt-3 mb-5">
-                <h1 data-aos="zoom-in" className="teamT1">
-                  Company philosophy
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className="row mt-3">
-            <div className="col-12 PiE col-md-6 col-lg-6 col-xl-6">
-              <div className="PiE1" data-aos="slide-right" data-aos-once="true">
-                <About1 />
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+            
               <p data-aos="slide-right" data-aos-once="true" className="mt-3">
-                The firm believes the foundation of its success lies in a
-                commitment to understanding and meeting client’s requirements
-                for high standard workmanship, safety, on-time delivery, and
-                value -for-money.
+              
+              Our mission: To provide daily services with a single phone call and at an affordable price through the application, reducing societal living pressures.
               </p>
-              <p data-aos="slide-left" data-aos-once="true" className="mt-3">
-                Its prime aim is the successful completion of all contracts with
-                the highest professional standard, workmanship ethics and on
-                schedule delivery. To this end, the firm
+              <p data-aos="slide-right" data-aos-once="true" className="mt-3">
+              
+              Our Vision: Helping our society live a simpler lifestyle by expanding services in all sectors.
+
               </p>
+              <p data-aos="slide-right" data-aos-once="true" className="mt-3">
+              Honesty: Our company is on the side of the people and serves them honestly.
+            
+              </p>
+
               <ul className="pt-2 lil">
                 <li>
                   <p data-aos="flip-up" data-aos-once="true">
                     <i className="fas fa-check-circle"></i>&nbsp;&nbsp;&nbsp;
-                    Recognizes the value of professional management, safety
-                    standards and environmental quality of construction
+                    Short-term goals: For many people to serve both full-time and part-time work, simplify the life of the community by providing users
                   </p>
                 </li>
                 <li>
                   <p data-aos="flip-up" data-aos-once="true">
                     <i className="fas fa-check-circle"></i>&nbsp;&nbsp;&nbsp;
-                    Place considerable emphasis and importance on proper
-                    planning, procurement and coordination of information,
-                    materials, and resources as well as integration of the
-                    services to ensure sustainability of projects.
+                    Long-term goals: To build our customers' trust in us by working with integrity, increasing the number of our customers, and expanding by adding different services.
                   </p>
                 </li>
-                <li>
-                  <p data-aos="flip-up" data-aos-once="true">
-                    <i className="fas fa-check-circle"></i>&nbsp;&nbsp;&nbsp;
-                    The Basic Aim of the company is to build quality and durable
-                    structures upgrading the construction technology and
-                    printing our company’s name on our successful projects.
-                  </p>
-                </li>
+              
               </ul>
             </div>
           </div>
-        </div>
+          
+              </div>
       </section>
       <Footer />
     </div>

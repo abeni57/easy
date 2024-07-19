@@ -29,7 +29,7 @@ const Team = () => {
               <div className="img-area">
                 <img src={img} alt="" />
                 <div className="img-text">
-                  <h3>Bogale Tesema</h3>
+                  <h3>Betelhem Aytenew</h3>
                   <h5>General Manager</h5>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Team = () => {
               <div className="img-area">
                 <img src={img} alt="" />
                 <div className="img-text">
-                  <h3>Mekuria Tessema</h3>
+                  <h3>Wongel Aytenew</h3>
                   <h5>Project Manager</h5>
                 </div>
               </div>
@@ -55,73 +55,8 @@ const Team = () => {
               <div className="img-area">
                 <img src={img} alt="" />
                 <div className="img-text">
-                  <h3>Alemayehu Dinku</h3>
-                  <h5>Construction supervisor & Office engineer</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="slide-left"
-              data-aos-once="true"
-              className="col-12 fm1 col-md-6 col-xl-3 col-lg-3"
-            >
-              <div className="img-area">
-                <img src={img} alt="" />
-                <div className="img-text">
-                  <h3>Samson Bogale</h3>
-                  <h5>Project Engineer</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="slide-right"
-              data-aos-once="true"
-              className="col-12 col-md-6 col-xl-3 col-lg-3"
-            >
-              <div className="img-area">
-                <img src={img} alt="" />
-                <div className="img-text">
-                  <h3>Yodit Getenet</h3>
-                  <h5>Administration and Finance</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="slide-left"
-              data-aos-once="true"
-              className="col-12 fm2 col-md-6 col-xl-3 col-lg-3"
-            >
-              <div className="img-area">
-                <img src={img} alt="" />
-                <div className="img-text">
-                  <h3>Kindualem Mola</h3>
-                  <h5>Employee supervisor</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="slide-right"
-              data-aos-once="true"
-              className="col-12 fm1 col-md-6 col-xl-3 col-lg-3"
-            >
-              <div className="img-area">
-                <img src={img} alt="" />
-                <div className="img-text">
-                  <h3>Biniam Wegayehu</h3>
-                  <h5>Site Engineer</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="slide-left"
-              data-aos-once="true"
-              className="col-12 fm1 col-md-6 col-xl-3 col-lg-3"
-            >
-              <div className="img-area">
-                <img src={img} alt="" />
-                <div className="img-text">
-                  <h3>Mekuria Teklu</h3>
-                  <h5>Site Forman</h5>
+                  <h3>Abenezer Solomon</h3>
+                  <h5>Call Operater</h5>
                 </div>
               </div>
             </div>

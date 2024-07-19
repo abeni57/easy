@@ -8,22 +8,22 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  background-image: url('../img/Constr.jpg') !important;
+  background-size: cover;
+  background-position: center center;
   overflow: hidden !important;
 }
 .ConT::before {
   content: "";
-  background: url("https://thumbs.dreamstime.com/b/house-under-construction-blueprints-building-project-53360048.jpg")
-    no-repeat;
+  
   height: 100vh;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
+  
+  
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.25;
 }
 .row div .TEXT {
   width: 100vw;
@@ -33,19 +33,19 @@
 }
 .row div .TEXT h1 {
   font-family: "cooper-black-std", serif;
-  color: #0091ad !important;
-  font-size: 6.5vmin;
+  color: #047537 !important;
+  font-size: 9.5vmin;
   font-weight: 900 !important;
   font-style: normal;
 }
 .row div .TEXT h2 {
   font-family: "cooper-black-std", serif;
-  color: #0091ad !important;
-  font-size: 5.5vmin;
+  color: #047537 !important;
+  font-size: 8.5vmin;
   font-weight: 700 !important;
 }
 .ma {
-  background: rgb(228, 228, 228);
+  background: #a1caa7(255, 255, 255);
 }
 .ma1 {
   overflow-y: hidden !important;
@@ -69,7 +69,7 @@
 }
 .mat h1 {
   font-family: "cooper-black-std", serif;
-  color: #0091ad;
+  color: #047537;
   width: 100%;
   font-size: 45px;
   overflow-y: hidden;
@@ -77,35 +77,36 @@
 .mat p {
   font-family: "PT Serif Caption", serif;
   color: #000;
-  font-size: 18px;
+  font-size: 16.5px;
+  text-align: justify;
 }
 .btb {
   margin-top: 100px !important;
 }
 .btb .btb1 {
   width: 40%;
-  background: #0091ad;
+  background: #047537;
 }
 .btb .btb2 {
   width: 40%;
   margin-left: 40px;
-  background: #fff !important;
+  background: #e1e4e2 !important;
   color: #000 !important;
   transition: 0.3s ease;
 }
-.btb .btb2:hover {
+/* .btb .btb2:hover {
   cursor: pointer;
-  color: #fff !important;
-  background: #0091ad !important;
+  color: #ffffff !important;
+  background: #ffffff !important;
   transition: 0.3s ease;
-}
+} */
 .mat1 {
   margin-top: 70px !important;
   overflow-y: hidden !important;
 }
 .mat1 h1 {
   font-family: "cooper-black-std", serif;
-  color: #0091ad;
+  color: #047537;
   width: 100%;
   font-size: 9vmin;
   overflow-y: hidden;
@@ -124,7 +125,7 @@
   font-family: "Roboto Serif", serif;
   font-size: 2rem !important;
   font-weight: bold;
-  color: #0091ad;
+  color: #047537;
 }
 .lead {
   font-family: "Noto Sans", sans-serif;

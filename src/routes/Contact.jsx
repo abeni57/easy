@@ -43,7 +43,7 @@ export default function Contact() {
           <div className="row">
             <div className="col-md-12">
               <div className="text-center mt-3 mb-3">
-                <h1 data-aos="zoom-in">Contact us</h1>
+                <h1 data-aos="zoom-in">Contact Us</h1>
               </div>
             </div>
           </div>
@@ -54,30 +54,30 @@ export default function Contact() {
               className="col-12 Atopic col-md-4 col-sm-4 col-xl-4 col-lg-4 mt-3"
             >
               <h2>
-                <i className="fas fa-map-marker-alt"></i>&nbsp;Address
+                <i className="fas fa-map-marker-alt "></i>&nbsp;Address
               </h2>
               <p className="lead1">
-                Lafto Sub City ,Kebele 20, and House # 850
+                Bole Sub City, Mega Building 3rd floor 
               </p>
               <h2>
-                <i className="fas fa-envelope"></i>&nbsp;Email
+                <i className="fas fa-envelope "></i>&nbsp;Email
               </h2>
               <p className="lead1">
-                <a href="mailto:btcon2016@gmail.com">btcon2016@gmail.com</a>
+                <a href="mailto:ezramtd36@gmail.com@gmail.com">betisha01@gmail.com</a>
               </p>
               <h2>
-                <i className="fas fa-phone"></i>&nbsp;Phone
+                <i className="fas fa-phone "></i>&nbsp;Phone
               </h2>
               <span className="lead1">
-                <a href="tel:+251911209528">Mob +251-911209528</a>
+                <a href="tel:+251911209528">Mob +251-931138338</a>
               </span>
               <br />
               <span className="lead1">
-                <a href="tel:+251911930188">Mob +251-911930188</a>
+                <a href="tel:+251911930188">Mob +251-703239707</a>
               </span>
               <br />
               <span className="lead1">
-                <a href="tel:+251114160839">Tel +251-114160839</a>
+                <a href="tel:+251114160839">Tel 011-114160839</a>
               </span>
             </div>
             <div
@@ -129,7 +129,7 @@ export default function Contact() {
                           required: "Email is required",
                           pattern: {
                             value:
-                              /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                            /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/,
                             message: "Invalid Email format",
                           },
                         })}

@@ -12,24 +12,26 @@ const Projects = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="text-center mt-3 mb-3">
-                <h1 data-aos="zoom-in">Company Projects</h1>
+                <h1 data-aos="zoom-in">Suppliers</h1>
               </div>
             </div>
           </div>
           <table class="table mt-3 mb-5 col-sm-12 table-borderless">
-            <thead className="table-primary">
+            <thead className="table-primaryy">
               <tr>
-                <th>Project Name</th>
-                <th>Client</th>
-                <th>Contract Amount</th>
+                <th>Supplier Name</th>
+                <th>Product Type</th>
+                <th>Product Name</th>
+                <th>Address</th>
                 <th></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Oda Bultum University</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
+                <td>Jupiter Trading</td>
+                <td>Computer Accessories</td>
+                <td>Laptop Stand With Fan</td>
+                <td>Kazanchis</td>
                 <td>
                   <Link
                     className="btn btb3 btn-primary text-light"
@@ -40,9 +42,10 @@ const Projects = () => {
                 </td>
               </tr>
               <tr>
-                <td>Addis ketema Housing</td>
-                <td>Housing Development</td>
-                <td>20 Million Birr</td>
+                <td>Ulter Computer</td>
+                <td>Networking Products</td>
+                <td>D-Link Wifi</td>
+                <td>Dembel</td>
                 <td>
                   <button className="btn btb3 btn-primary text-light">
                     Read More
@@ -50,9 +53,24 @@ const Projects = () => {
                 </td>
               </tr>
               <tr>
-                <td>Oda Bultum University</td>
-                <td>Ministry of Education</td>
-                <td>5 Million Birr</td>
+                <td>Jupiter Trading</td>
+                <td>Computer Accessories</td>
+                <td>Laptop Stand With Fan</td>
+                <td>Kazanchis</td>
+                <td>
+                  <Link
+                    className="btn btb3 btn-primary text-light"
+                    to="/project/oda_bultum"
+                  >
+                    Read More
+                  </Link>
+                </td>
+              </tr>
+              <tr>
+                <td>Ulter Computer</td>
+                <td>Networking Products</td>
+                <td>D-Link Wifi</td>
+                <td>Dembel</td>
                 <td>
                   <button className="btn btb3 btn-primary text-light">
                     Read More
@@ -60,9 +78,24 @@ const Projects = () => {
                 </td>
               </tr>
               <tr>
-                <td>Bulehora University</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
+                <td>Jupiter Trading</td>
+                <td>Computer Accessories</td>
+                <td>Laptop Stand With Fan</td>
+                <td>Kazanchis</td>
+                <td>
+                  <Link
+                    className="btn btb3 btn-primary text-light"
+                    to="/project/oda_bultum"
+                  >
+                    Read More
+                  </Link>
+                </td>
+              </tr>
+              <tr>
+                <td>Ulter Computer</td>
+                <td>Networking Products</td>
+                <td>D-Link Wifi</td>
+                <td>Dembel</td>
                 <td>
                   <button className="btn btb3 btn-primary text-light">
                     Read More
@@ -70,119 +103,24 @@ const Projects = () => {
                 </td>
               </tr>
               <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
+                <td>Jupiter Trading</td>
+                <td>Computer Accessories</td>
+                <td>Laptop Stand With Fan</td>
+                <td>Kazanchis</td>
                 <td>
-                  <button className="btn btb3 btn-primary text-light">
+                  <Link
+                    className="btn btb3 btn-primary text-light"
+                    to="/project/oda_bultum"
+                  >
                     Read More
-                  </button>
+                  </Link>
                 </td>
               </tr>
               <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
-                <td>
-                  <button className="btn btb3 btn-primary text-light">
-                    Read More
-                  </button>
-                </td>
-              </tr>
-              <tr>
-                <td>ODA BULTUM UNIVERSITY</td>
-                <td>Ministry of Education</td>
-                <td>30 Million Birr</td>
+                <td>Ulter Computer</td>
+                <td>Networking Products</td>
+                <td>D-Link Wifi</td>
+                <td>Dembel</td>
                 <td>
                   <button className="btn btb3 btn-primary text-light">
                     Read More

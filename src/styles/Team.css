@@ -3,15 +3,15 @@
   margin-top: 50px !important;
 }
 .mam .teamT {
-  font-family: "Comfortaa", cursive;
-  color: #0091ad;
+  font-family: "cooper-black-std", serif;
+  color: #047537;
   font-size: 9vmin;
   font-weight: lighter !important;
   overflow-y: hidden;
 }
 .mam .teamT1 {
   font-family: "cooper-black-std", serif;
-  color: #0091ad;
+  color: #047537;
   font-size: 9vmin;
   overflow-y: hidden;
 }
@@ -44,8 +44,8 @@
     to bottom,
     rgba(199, 0, 57, 0.01) 0,
     rgba(36, 0, 199, 0.25) 25%,
-    rgba(0, 108, 248, 0.75) 75%,
-    rgba(0, 132, 255, 0.95) 100%
+    rgba(169, 232, 204, 0.75) 75%,
+    rgba(176, 234, 181, 0.95) 100%
   );
 }
 .img-text {

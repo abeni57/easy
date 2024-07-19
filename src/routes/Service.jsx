@@ -28,8 +28,8 @@ const Service = () => {
             >
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
-                  <i class="fas fa-hotel"></i>
-                  <h3 class="card-title">Office Building</h3>
+                  <i class="fas fa-laptop"></i>
+                  <h3 class="card-title">Laptops & Computers</h3>
                   <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
@@ -50,8 +50,8 @@ const Service = () => {
             >
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
-                  <i class="fas fa-shower"></i>
-                  <h3 class="card-title">Public Shower</h3>
+                  <i class="fas fa-phone"></i>
+                  <h3 class="card-title">Mobile Phones & Tablets </h3>
                   <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
@@ -69,8 +69,8 @@ const Service = () => {
             >
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
-                  <i class="fas fa-university"></i>
-                  <h3 class="card-title">University</h3>
+                  <i class="fas fa-camera"></i>
+                  <h3 class="card-title">Photo & Video Cameras</h3>
                   <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
@@ -84,12 +84,47 @@ const Service = () => {
             <div
               data-aos="slide-right"
               data-aos-once="true"
-              class="col-12 col-md-6 col-sm-6 col-xl-4 sm1 col-lg-4"
-            >
+              class="col-12 col-md-6 col-sm-6 col-xl-4 sm1 col-lg-4">
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
-                  <i class="fas fa-industry"></i>
-                  <h3 class="card-title">Industrial Construction</h3>
+                  <i class="fas fa-network-wired"></i>
+                  <h3 class="card-title">Networking Products</h3>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Adipisci eligendi modi temporibus alias iste. Accusantium?
+                  </p>
+                  <button class="btn btb3 btn-primary text-light">
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="slide-right"
+              data-aos-once="true"
+              class="col-12 col-md-6 col-sm-6 col-xl-4 sm1 col-lg-4">
+              <div class="card text-dark text-center pb-2">
+                <div class="card-body">
+                  <i class="fas fa-keyboard"></i>
+                  <h3 class="card-title">Computer Accessories</h3>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Adipisci eligendi modi temporibus alias iste. Accusantium?
+                  </p>
+                  <button class="btn btb3 btn-primary text-light">
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="slide-right"
+              data-aos-once="true"
+              class="col-12 col-md-6 col-sm-6 col-xl-4 sm1 col-lg-4">
+              <div class="card text-dark text-center pb-2">
+                <div class="card-body">
+                  <i class="fas fa-print"></i>
+                  <h3 class="card-title">Printer & Scanners</h3>
                   <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
@@ -103,12 +138,31 @@ const Service = () => {
             <div
               data-aos="slide-up"
               data-aos-once="true"
+              className="col-12 col-md-6 col-sm-6 sm1 sm2 col-xl-4 col-lg-4"
+            >
+              <div className="card text-dark text-center pb-2">
+                <div className="card-body">
+                  <i className="fas fa-spa"></i>
+                  <h3 className="card-title">Health & Beauty</h3>
+                  <p className="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Adipisci eligendi modi temporibus alias iste. Accusantium?
+                  </p>
+                  <button className="btn btb3 btn-primary text-light">
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="slide-up"
+              data-aos-once="true"
               class="col-12 col-md-6 col-sm-6 sm1 sm2 col-xl-4 col-lg-4"
             >
               <div class="card text-dark text-center pb-2">
                 <div class="card-body">
-                  <i class="fas fa-network-wired"></i>
-                  <h3 class="card-title">Public Infrastructure</h3>
+                  <i class="fas fa-blender"></i>
+                  <h3 class="card-title">Kitchen Appliances</h3>
                   <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
@@ -128,7 +182,7 @@ const Service = () => {
               <div class="card w1 text-dark text-center pb-2">
                 <div class="card-body">
                   <i class="fas fa-building"></i>
-                  <h3 class="card-title">Housing Development</h3>
+                  <h3 class="card-title">Building Materials</h3>
                   <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
